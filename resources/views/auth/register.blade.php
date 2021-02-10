@@ -68,13 +68,19 @@
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
+                                <div style="height:10px;"></div>
 
-                        <div class="form-group row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary">
+                        <div class="form-group row mb-0" style="padding-left:145px;">
+                            <div class="col-md-2 ">
+                                <button type="submit" class="btn btn-success">
                                     {{ __('Register') }}
                                 </button>
                             </div>
+                            <div class="col-md-5">
+                                <button type="submit" class="btn btn-primary">
+                                   Login with facebook
+                                </button>
+                            </div>  
                         </div>
                     </form>
                 </div>
