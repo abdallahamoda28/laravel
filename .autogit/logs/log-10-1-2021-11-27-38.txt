@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Wed Feb 10 2021 11:27:38 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* app/Http/Controllers/SocialController.php
+* resources/views/auth/register.blade.php
+* routes/web.php
+
+
+Created files:
+* .autogit/logs/log-10-1-2021-10-47-44.txt
+
+
+Deleted files:
+
+
+Renamed files:
