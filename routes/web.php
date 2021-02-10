@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SocialController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,5 +24,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 
-Route::get('redirect/service', [App\Http\Controllers\SocialController::class, 'redirect'])->name('redirectFacebook');
-Route::get('callback/service', [App\Http\Controllers\SocialController::class, 'callback'])->name('callbackFacebook');
+Route::get('redirect/service', [App\Http\Controllers\SocialController::class, 'redirect']);
+Route::get('callback/service', [App\Http\Controllers\SocialController::class, 'callback']);
