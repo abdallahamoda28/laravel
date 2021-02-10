@@ -72,13 +72,13 @@
 
                         <div class="form-group row mb-0" style="padding-left:145px;">
                             <div class="col-md-2 ">
-                                <button type="submit" class="btn btn-success">
+                                <button type="submit" class="btn btn-danger">
                                     {{ __('Register') }}
                                 </button>
                             </div>
                             <div class="col-md-5">
                                 <button type="submit" class="btn btn-primary">
-                                   Login with facebook
+                                        <a href="{{ url('redirect/facebook')}}"> Login with facebook</a>
                                 </button>
                             </div>  
                         </div>
