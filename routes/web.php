@@ -24,3 +24,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 
 Route::get('redirect/service', [App\Http\Controllers\SocialController::class, 'redirect']);
+Route::get('callback/service', [App\Http\Controllers\SocialController::class, 'callback']);
