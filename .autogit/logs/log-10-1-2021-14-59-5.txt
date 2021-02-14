@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Wed Feb 10 2021 14:59:05 GMT+0200 (Eastern European Standard Time)
+------------------------------------------------------
+
+Modified files:
+* resources/views/auth/register.blade.php
+* routes/web.php
+
+
+Created files:
+* .autogit/logs/log-10-1-2021-14-28-52.txt
+
+
+Deleted files:
+
+
+Renamed files:
